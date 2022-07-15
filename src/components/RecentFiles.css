@@ -1,0 +1,88 @@
+.recent_files {
+  padding: 2rem;
+}
+
+.recent_files table {
+  width: 100%;
+}
+
+.recent_files table td, .recent_files table th {
+  width: 100%;
+}
+
+.recent_files table td {
+  font-weight: 500;
+  color: #364655;
+}
+
+.recent_files table th.fileName {
+  min-width: 40vw;
+}
+
+.recent_files table tr {
+  padding: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recent_files table thead th {
+  color: #32414F;
+}
+
+.recent_files table tbody td.fileName {
+  overflow: hidden;
+  cursor: pointer;
+  min-width: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  font-weight: bolder;
+}
+
+.recent_files table tbody td.fileName .cyan {
+  background-color: #b9e6f5;
+  color: #1D9CC5;
+}
+
+.recent_files table tbody td.fileName .orange {
+  background-color: #fff8f6;
+  color: #fd642c;
+}
+
+.recent_files table tbody td.fileName .indigo {
+  background-color: #e2bcfe;
+  color: #8a05e9;
+}
+
+.recent_files table tbody td.fileName .blue {
+  background-color: #b5effe;
+  color: #03b7e4;
+}
+
+.recent_files table tbody td.fileName .green {
+  background-color: #bdfcd9;
+  color: #09e46c;
+}
+
+.recent_files table tbody .fileType {
+  padding: .4rem;
+  border-radius: .5rem;
+}
+
+.recent_files table tbody span {
+  font-weight: 500;
+  color: #364655;
+}
+/*# sourceMappingURL=RecentFiles.css.map */

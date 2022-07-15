@@ -1,0 +1,42 @@
+.filesByCategory {
+  margin: 0 6rem;
+}
+
+@media screen and (max-width: 600px) {
+  .filesByCategory {
+    margin: 0 4rem;
+  }
+}
+
+.filesByCategory .header_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .5rem  1rem;
+  background-color: #d1dae2;
+}
+
+.filesByCategory .header_bar h3 {
+  font-weight: 400;
+}
+
+.filesByCategory .header_bar .sortBy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .6rem;
+  margin-right: 3rem;
+}
+
+.filesByCategory .bottom .files {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=FilesByCategory.css.map */

@@ -1,0 +1,37 @@
+$primaryColor:#32414F;
+$cyan:#1D9CC5;
+.fileCard{
+  max-height: 8vh;
+  cursor: pointer;
+   border-radius: .5rem;
+    background: $primaryColor;
+    transform: scale(1);
+    width: 20rem;
+    
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    .imageCard,.videoCard,.docCard,.otherCard,.musicCard
+    {
+        width: 20rem;
+        
+    }
+    a{
+        // height: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        // gap:1.5rem;
+        align-items: center;
+    }
+    svg,i{
+        margin-bottom: 1.5rem;
+        transform: scale(4);
+        
+    }
+    .fileName{
+        padding: .5rem;
+    }
+    &:hover{
+        transform: scale(1.04);
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.267);
+    }
+}

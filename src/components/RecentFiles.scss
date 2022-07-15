@@ -1,0 +1,90 @@
+$primaryColor:#32414F;
+$cyan:#1D9CC5;
+
+ .recent_files
+ {
+     padding: 2rem;
+     table{
+         width: 100%;
+         td,th{
+             width: 100%;
+             
+         }
+         td{
+            font-weight: 500;
+
+            color: lighten($primaryColor,2);
+
+         }
+         th.fileName
+         {
+            min-width: 40vw;
+
+         }
+         tr
+         {
+            padding: .5rem;
+             display: flex;
+             align-items: center;
+             gap: 1rem;
+             justify-content: space-between;
+         }
+         thead
+         {
+             th
+             {
+color: $primaryColor;
+
+             }
+         }
+         tbody
+         {
+            
+             td.fileName
+             {
+                 
+                 overflow: hidden;
+                 cursor: pointer;
+                 min-width: 40vw;
+               
+                 display: flex;
+                 align-items: center;
+                 gap: 1rem;
+                 font-weight: bolder;
+                
+                 .cyan{
+                    background-color: lighten($cyan,40);
+                     color: $cyan;
+                 }
+                 .orange{
+                     background-color:  lighten(rgb(253, 100, 44),40);
+                      color: rgb(253, 100, 44);
+                  }
+                  .indigo{
+                     background-color:  lighten(rgb(138, 5, 233),40);
+                      color: rgb(138, 5, 233);
+                  }
+                  .blue{
+                    background-color: lighten(rgb(3, 183, 228),40);
+                     color: rgb(3, 183, 228);
+                 }
+                 .green{
+                    background-color: lighten(rgb(9, 228, 108),40);
+                     color: rgb(9, 228, 108);
+                 }
+             }
+             .fileType{
+                padding: .4rem;
+                border-radius: .5rem;
+             }
+             span
+             {
+                font-weight: 500;
+                 color: lighten($primaryColor,2);
+                 
+             }
+         }
+        
+     }
+     
+ }

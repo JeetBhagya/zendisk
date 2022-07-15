@@ -1,0 +1,76 @@
+$primaryColor:#32414F;
+$cyan:#1D9CC5;
+.top_fixed{
+    position: fixed;
+    top:0;
+    padding-right: 6rem;
+   z-index: 99;
+    width: 100%;
+
+    @media screen and (max-width:600px) {
+        width: 90%;
+    padding-right: 0rem;
+            
+        }
+    background:white;
+}
+.bottom{
+    position: relative;
+    top:9rem;
+    @media screen and (max-width:600px) {
+    top:13rem;
+
+    }
+}
+    .top_bar{
+        
+        padding: 2rem;
+        padding-bottom: 1rem;
+gap: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media screen and (max-width:600px) {
+            flex-direction: column;
+        align-items: flex-end;
+
+        }
+        .search_bar{
+            
+            padding: .7rem 1.2rem;
+            width: 100%;
+            border-radius: 1rem;
+            display: flex;
+            align-items: center;
+            background: lighten($primaryColor, 65);
+            @media screen and (max-width:600px) {
+            width: 100%;
+                order:1;
+            }
+            
+        }
+        input{
+            width: 95%;
+            margin-left: .6rem;
+            border: none;
+            outline: none;
+            background: transparent;
+        }
+        .userAccount{
+            display: flex;
+            gap:1rem;
+            align-items: center;
+            a{
+                color: $cyan;
+            }
+        }
+       
+    }
+    .header_bar
+    {
+        border-radius: .5rem;
+        display: flex;
+        justify-content: space-between;
+        margin:0  2rem ;
+        
+    }

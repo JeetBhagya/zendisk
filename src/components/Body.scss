@@ -1,0 +1,82 @@
+$primaryColor:#32414F;
+$cyan:#1D9CC5;
+// .cyan{
+//     background-color: lighten($cyan,40);
+//      color: $cyan;
+//  }
+//  .orange{
+//      background-color:  lighten(rgb(253, 100, 44),40);
+//       color: rgb(253, 100, 44);
+//   }
+//   .indigo{
+//      background-color:  lighten(rgb(138, 5, 233),40);
+//       color: rgb(138, 5, 233);
+//   }
+//   .blue{
+//     background-color: lighten(rgb(3, 183, 228),40);
+//      color: rgb(3, 183, 228);
+//  }
+//  .green{
+//     background-color: lighten(rgb(9, 228, 108),40);
+//      color: rgb(9, 228, 108);
+//  }
+h2{
+    color: $primaryColor;
+}
+.bottom{
+    margin:3rem 2rem;
+
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+}
+.Body{
+    // position: absolute;
+    // top:0;
+    // left:5%;
+    background-color: white;
+    
+    // min-height: 100vh;
+    // z-index: 0;
+    // height: 200vh;
+margin: 0 6rem;
+@media screen and (max-width:600px) {
+    margin:0 4rem;
+
+
+
+
+        
+    }
+    h1{
+        color: $primaryColor;
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    button{
+        border-radius: 2rem;
+        background: $primaryColor;
+        color:white;
+        padding: .5rem 1rem;
+        display: flex;
+        gap:.5rem;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        outline: none;
+    }
+    .storage
+    {
+    // margin:1rem 2rem;
+
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap; 
+      @media screen and (max-width:600px) {
+        // width: 110%;
+
+
+            
+        }  
+    }
+}

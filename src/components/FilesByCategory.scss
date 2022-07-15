@@ -1,0 +1,32 @@
+$primaryColor:#32414F;
+$cyan:#1D9CC5;
+.filesByCategory{
+    margin: 0 6rem;
+    @media screen and (max-width:600px) {
+        margin:0 4rem;
+            
+        }
+        .header_bar
+        {
+            display: flex;
+            padding:.5rem  1rem ;
+            background-color: lighten($color: $primaryColor, $amount: 60);
+            h3{
+                font-weight: 400;
+            }
+            .sortBy{
+                display: flex;
+                align-items: center;
+                gap:.6rem;
+                margin-right: 3rem;
+            }
+            
+        }
+        .bottom{
+            .files{
+                display: flex;
+      gap: 2rem;
+      flex-wrap: wrap; 
+            }
+        }
+    }

@@ -1,0 +1,40 @@
+.side_bar {
+  position: fixed;
+  padding-top: 2rem;
+  z-index: 9999;
+  height: 100vh;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #32414F;
+}
+
+.side_bar_item {
+  cursor: pointer;
+  padding: 1.5rem;
+  font-size: 2.5rem;
+  width: 100%;
+  color: white;
+  background-color: transparent;
+  -webkit-transition: background-color, width 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: background-color, width 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@media screen and (max-width: 600px) {
+  .side_bar_item {
+    font-size: 1.5rem;
+  }
+}
+
+.side_bar .active {
+  background-color: #5a748d;
+  width: 130%;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .side_bar .active {
+    width: 110%;
+  }
+}
+/*# sourceMappingURL=SideBar.css.map */

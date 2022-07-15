@@ -1,0 +1,117 @@
+$primaryColor:#32414F;
+$cyan:#1D9CC5;
+
+%colors
+{
+    .cyan{
+        background-color: cyan;
+         color: white;
+     }
+     .orange{
+         background-color: orangered;
+          color: white;
+      }
+      .indigo{
+         background-color: indigo;
+          color: white;
+      }
+}
+.cyan{
+    background-color: $cyan;
+     color: white;
+ }
+ .orange{
+     background-color: rgb(253, 100, 44);
+      color: white;
+  }
+  .indigo{
+     background-color: rgb(138, 5, 233);
+      color: white;
+  }
+  .blue{
+    background-color: rgb(3, 183, 228);
+     color: white;
+ }
+ .green{
+    background-color: rgb(9, 228, 108);
+     color: white;
+ }
+.file_card
+{
+    cursor: pointer;
+    box-shadow: 0px 4px .5rem rgba(0, 0, 0, 0.205);
+    border-radius: .5rem;
+    overflow: hidden;
+    width: 24rem;
+    // margin:0 2rem;
+    background: white;
+    @media screen and (max-width:600px) {
+        width: 100%;
+
+
+
+            
+        }
+    &_top
+    {
+        padding:2rem 3rem;
+       display: flex;
+    //    justify-content: center;
+    gap: 2rem;
+       align-items: center; 
+       .round{
+        // background-color: $cyan;
+        
+        border-radius: 50%;
+        padding: 2rem;
+        width:6vw;
+        height: 6vw;
+        display: grid;
+        place-content: center;
+    }
+       svg{
+          
+          fill: white;
+   transform: scale(3);
+
+       }
+       h3{
+           font-size: 2rem;
+           color: $primaryColor;
+           font-weight: 500;
+       }
+    }
+    &_bottom
+    {
+        text-align: center;
+        display: flex;
+        // gap: .5rem;
+        align-items: center; 
+        // .cyan{
+        //     background-color: $cyan;
+        //      color: white;
+        //  }
+        //  .orange{
+        //      background-color: orangered;
+        //       color: white;
+        //   }
+        //   .indigo{
+        //      background-color: indigo;
+        //       color: white;
+        //   }
+        .used_storage{
+           
+    
+           padding: 1rem .6rem;
+        width: 50%;
+
+        }
+        .tot_files{
+        width: 50%;
+
+            color: white;
+            background-color: $primaryColor;
+            padding: 1rem .6rem;
+        }
+    }
+}
